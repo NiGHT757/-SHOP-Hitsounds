@@ -1,0 +1,50 @@
+"Hitsounds"
+{
+	"name"			"HitSounds"
+    "description"	""
+
+	"bameware"
+	{
+		"name" "BameWare"
+		"sound" "player/hitsounds/bameware.wav"
+		"price" "7000"
+		"sellprice" "2500"
+		"duration" "604800"
+	}
+	
+	"gamesense"
+	{
+		"name" "GameSense"
+		"sound" "buttons/arena_switch_press_02.wav"
+		"price" "7000"
+		"sellprice" "2500"
+		"duration" "604800"
+	}
+	
+	"callofduty"
+	{
+		"name" "Call of Duty"
+		"sound" "player/hitsounds/cod.mp3"
+		"price" "7000"
+		"sellprice" "2500"
+		"duration" "604800"
+	}
+	
+	"metalsound"
+	{
+		"name" "Metal"
+		"sound" "player/hitsounds/Metal.mp3"
+		"price" "7000"
+		"sellprice" "2500"
+		"duration" "604800"
+	}
+	
+	"robloxsound"
+	{
+		"name" "Roblox"
+		"sound" "player/hitsounds/roblox.mp3"
+		"price" "7000"
+		"sellprice" "2500"
+		"duration" "604800"
+	}
+}
