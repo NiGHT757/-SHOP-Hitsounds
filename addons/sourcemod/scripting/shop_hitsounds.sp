@@ -124,7 +124,7 @@ public ShopAction OnEquipItem(int iClient, CategoryId category_id, const char[] 
 
 public void OnTakeDamagePost(int victim, int attacker, int inflictor, float damage, int damagetype, int weapon, const float damageForce[3], float damagePosition[3])
 {		
-	if(!g_bEnabled[attacker] || damage < 1 || !IsValidClient(attacker) || !IsValidClient(victim) || GetClientTeam(attacker) == GetClientTeam(victim))
+	if(damage < 1 || !IsValidClient(attacker) || !IsValidClient(victim) || !g_bEnabled[attacker] || GetClientTeam(attacker) == GetClientTeam(victim))
 		return;
 	
 	EmitSoundToClient(attacker, g_sSound[attacker], attacker, SNDCHAN_AUTO, SNDLEVEL_NORMAL, SND_NOFLAGS);
